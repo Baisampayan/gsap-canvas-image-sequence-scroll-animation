@@ -110,6 +110,7 @@ gsap.to(imageSeq, {
   },
   onUpdate: render,        // Callback to update the animation frame
 });
+```
 
 ## Testing the Animation
 
