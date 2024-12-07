@@ -60,6 +60,7 @@ Refer to the `LICENSE` file for more details.
      `;
      return data.split("\n")[index];
    }
+   ```
 
 3. Ensure all your images are named sequentially (e.g., frame0.jpg, frame1.jpg) and stored in the correct folder.
 
@@ -133,6 +134,7 @@ function files(index) {
   `;
   return data.split("\n")[index];
 }
+```
 
 ## Customizing Scroll Behavior
 
@@ -187,7 +189,7 @@ gsap.to(imageSeq, {
   },
   onUpdate: render,   // Update the animation frame on scroll
 });
-
+```
 
 ## Future Enhancements
 
